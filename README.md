@@ -1,18 +1,1 @@
-# Joey 1 - Autonomous Robot
 
-Joey 1 is an autonomous robot project implementing a **differential drive controller** using **ROS 1 Melodic** on an **Nvidia Jetson Nano**, featuring **RViz simulation**, **robot_localization**, **SLAM**, and **Navigation1**.  
-
-- **Differential Drive Controller:** [ROS Wiki](https://wiki.ros.org/diff_drive_controller)  
-- **Robot Localization:** [Documentation](https://docs.ros.org/en/melodic/api/robot_localization/html/index.html)  
-- **Navigation:** [ROS Wiki](https://wiki.ros.org/navigation)  
-
----
-
-## Getting Started
-
-Before starting, ensure you are using **Ubuntu 18.04** with **ROS 1 Melodic** installed on your server machine (desktop or laptop). Also, make sure **git** is installed.
-
-Install Python dependencies:
-
-```bash
-pip install -r requirements.txt
